@@ -1,0 +1,32 @@
+/*
+Programmer: Stoyanov, Maksim
+Chemeketa Community College
+June 6, 2017
+Class: CIS233J
+Assignment:
+File Name:
+*/
+/* 
+    Created on : Jun 6, 2017, 11:26:14 AM
+    Author     : <a href= "mailto:mstoyano@my.chemeketa.edu" >Maksim</a>
+*/
+
+.color-pickerT 
+{
+    -fx-background-image: url(color.png);
+    -fx-background-size: 20 20;
+    -fx-smooth: true;
+    -fx-background-position: 5 2.8;
+    -fx-background-repeat: no-repeat;   
+}
+
+.picker-color
+{
+    -fx-border-color: rgba(0, 0, 0, 0);
+}
+
+.scroll-pane:focused
+{
+    -fx-text-box-border: white;
+    -fx-focus-color: white;
+}
